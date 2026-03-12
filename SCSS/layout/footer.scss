@@ -1,0 +1,16 @@
+.footer{
+background:#07121a;
+padding:40px 20px;
+text-align:center;
+color:white;
+}
+
+.footer-menu{
+
+@include tablet{
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+}

@@ -1,0 +1,27 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:sans-serif;
+}
+
+img{
+width:100%;
+display:block;
+}
+
+.container{
+padding:0 20px;
+
+@include tablet{
+max-width:720px;
+margin:0 auto;
+}
+
+@include desktop{
+max-width:1200px;
+}
+}

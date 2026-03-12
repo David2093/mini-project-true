@@ -1,0 +1,19 @@
+.hero{
+background:url("../images/hero.jpg") center/cover no-repeat;
+height:500px;
+display:flex;
+align-items:center;
+}
+
+.hero h1{
+font-size:36px;
+color:white;
+
+@include tablet{
+font-size:48px;
+}
+
+@include desktop{
+font-size:64px;
+}
+}
